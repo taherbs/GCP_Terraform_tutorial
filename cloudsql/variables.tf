@@ -1,0 +1,9 @@
+variable "tier" { default = "db-f1-micro" }
+variable "name" { default = "gcpdatabasetbs" }
+variable "db_region" { default = "us-west1-a" }
+variable "disk_size" { default = "10" }
+variable "database_version" { default = "MYSQL_5_7" }
+variable "user_host" { default = "%" }
+variable "user_name" { default = "admin" }
+variable "user_password" { default = "123456" }
+variable "activation_policy" { default = "always" }
